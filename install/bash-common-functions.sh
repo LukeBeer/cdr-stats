@@ -13,6 +13,10 @@
 # Arezqui Belaid <info@star2billing.com>
 #
 
+USER=$(sed -rn 's/.*:([^/]+).*/\1/p' <<<$(git remote -v) 2>/dev/null)
+[ -z $USER ] && USER=Star2Billing
+[ -z $GIT_USER ] && export GIT_USER=$USER
+
 DATETIME=$(date +"%Y%m%d%H%M%S")
 KERNELARCH=$(uname -p)
 
