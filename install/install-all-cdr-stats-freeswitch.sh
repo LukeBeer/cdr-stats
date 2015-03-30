@@ -40,7 +40,7 @@ func_identify_os
 
 echo ""
 echo ""
-echo "> > > This is only to be installed on a fresh new installation of CentOS 6.2 or Ubuntu LTS 10.04 / 12.04! < < <"
+echo "> > > This is only to be installed on a fresh new installation of CentOS 6.x or Ubuntu LTS 10.04 / 12.04! < < <"
 echo ""
 echo "It will install Freeswitch, CDR-Stats on your server"
 echo "Press Enter to continue or CTRL-C to exit"

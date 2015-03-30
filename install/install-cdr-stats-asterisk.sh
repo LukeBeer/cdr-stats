@@ -28,7 +28,7 @@ INSTALLMODE='GENTLE' # Set to FULL to update Selinux, Firewall, etc if not Set t
 
 echo ""
 echo ""
-echo "> > > This is only to be installed on a fresh new installation of CentOS 6.2 or Ubuntu LTS 10.04 / 12.04! < < <"
+echo "> > > This is only to be installed on a fresh new installation of CentOS 6.x or Ubuntu LTS 10.04 / 12.04! < < <"
 echo ""
 echo "It will install CDR-Stats on your server"
 echo "Press Enter to continue or CTRL-C to exit"
